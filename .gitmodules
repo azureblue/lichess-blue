@@ -1,0 +1,6 @@
+[submodule "chess-engine"]
+	path = chess-engine
+	url = https://github.com/azureblue/chess-engine.git
+[submodule "lichess-bot"]
+	path = lichess-bot
+	url = https://github.com/azureblue/lichess-bot.git

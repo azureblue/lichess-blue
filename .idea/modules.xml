@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chess-engine/chess-engine.iml" filepath="$PROJECT_DIR$/chess-engine/chess-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lichess-blue-bot.iml" filepath="$PROJECT_DIR$/lichess-blue-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lichess-bot/lichess-bot.iml" filepath="$PROJECT_DIR$/lichess-bot/lichess-bot.iml" />
+    </modules>
+  </component>
+</project>
