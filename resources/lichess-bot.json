@@ -1,0 +1,6 @@
+{
+  "blue_bot_one": {
+    "authToken": "<put here>",
+    "whitelist": ["blue_kk", "kammaxxer"]
+  }
+}

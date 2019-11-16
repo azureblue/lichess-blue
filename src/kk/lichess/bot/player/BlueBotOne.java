@@ -1,12 +1,13 @@
-package kk.chessbot.player;
+package kk.lichess.bot.player;
 
 import kk.chessbot.Board;
 import kk.chessbot.Fen;
-import kk.chessbot.MoveUtils;
 import kk.chessbot.Side;
+import kk.chessbot.player.NotSoRandomPlayer;
+import kk.lichess.bot.MoveUtils;
 import kk.lichess.bots.api.ChessPlayer;
 
-public class LichessNotSoRandomPlayer implements ChessPlayer {
+public class BlueBotOne implements ChessPlayer {
 
     private NotSoRandomPlayer player;
     private Board tmpBoard = new Board();

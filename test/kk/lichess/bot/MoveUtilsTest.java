@@ -1,4 +1,5 @@
-import kk.chessbot.MoveUtils;
+package kk.lichess.bot;
+
 import kk.chessbot.Piece;
 import kk.chessbot.wrappers.Move;
 import org.junit.jupiter.api.Test;

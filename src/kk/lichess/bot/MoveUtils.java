@@ -1,5 +1,7 @@
-package kk.chessbot;
+package kk.lichess.bot;
 
+import kk.chessbot.Board;
+import kk.chessbot.Piece;
 import kk.chessbot.wrappers.Move;
 import kk.chessbot.wrappers.Position;
 
