@@ -3,18 +3,18 @@ package kk.lichess.bot.player;
 import kk.chessbot.Board;
 import kk.chessbot.Fen;
 import kk.chessbot.Side;
-import kk.chessbot.player.NotSoRandomPlayer;
+import kk.chessbot.player.AlphaBetaPlayer;
 import kk.lichess.bot.MoveUtils;
 import kk.lichess.bots.api.ChessPlayer;
 
 public class BlueBotOne implements ChessPlayer {
 
-    private NotSoRandomPlayer player;
+    private AlphaBetaPlayer player;
     private Board tmpBoard = new Board();
 
     @Override
     public void gameStarts(String fen, boolean playerIsWhite, int remainingTime) {
-        player = new NotSoRandomPlayer(Fen.fen(fen).createBoard(), playerIsWhite ? Side.White : Side.Black);
+        player = new AlphaBetaPlayer(Fen.fen(fen).createBoard(), playerIsWhite ? Side.White : Side.Black);
     }
 
     @Override
